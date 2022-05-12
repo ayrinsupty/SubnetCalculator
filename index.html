@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title> SUBNET CALCULATOR </title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/logo.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <div id="preloader"></div>
+  <header id="header" class="fixed-top header-transparent">
+    <div class="container-fluid">
+
+      <div class="row justify-content-center">
+        <div class="col-xl-11 d-flex align-items-center">
+          <h1 class="logo mr-auto"><a href="index.html">SUBNET CALCULATOR</a></h1>
+
+          <nav class="nav-menu d-none d-lg-block">
+            <ul>
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#tutorial">Tutorial</a></li>
+              <li><a href="#team">Team</a></li>
+              <li class="drop-down"><a href="">Services</a>
+                <ul>
+                  <li><a href="ip.html">Your Device IP</a></li>
+                  <li><a href="ipcal.html">IP Subnet Calculator</a></li>
+                  <li><a href="flsm_cal.html">FLSM Calculator</a></li>
+                  <li><a href="vlsm_cal.html">VLSM Calculator</a></li>
+                </ul>
+              </li>
+              <li><a href="#contact">Contact Us</a></li>
+
+            </ul>
+          </nav><!-- .nav-menu -->
+        </div>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Intro Section ======= -->
+  <section id="intro">
+    <div class="intro-container">
+      <div id="introCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+        <ol class="carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item active" style="background-image: url(assets/img/intro-carousel/1.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">What's Your IP?</h2>
+                <p class="animate__animated animate__fadeInUp">Your internet service provider assigns a numeric label, called the Internet Protocol (IP) address, to identify your device among billions of others. Look up your public IP Address using our website.</p>
+                <a href="ip.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(assets/img/intro-carousel/2.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">IP Subnet Calculator</h2>
+                <p class="animate__animated animate__fadeInUp"> This IP Subnet Calculator is designed to find out the Class, IP Range, Network Address and Broadcast Address according to given number of hosts. </p>
+                <a href="ipcal.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(assets/img/intro-carousel/3.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">FLSM CALCULATOR</h2>
+                <p class="animate__animated animate__fadeInUp">Fixed Length Subnet Mask (FLSM) requires network to have subnets of equal size and equal number of hosts. We also call it classful Addressing.<br>
+                  In Classful addressing, the address space is divided into five classes: A, B, C, D, and E. Each of these classes has a valid range of IP addresses.</p>
+                <a href="flsm_cal.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(assets/img/intro-carousel/4.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">VLSM(CIDR) CALCULATOR</h2>
+                <p class="animate__animated animate__fadeInUp">VLSM stands for Variable Length Subnet Mask where the subnet design uses more than one mask in the same network which means more than one mask is used for different subnets of a single class A, B, C or a network. <br>
+                It is used to increase the usability of subnets as they can be of variable size.</p>
+                <a href="vlsm_cal.html" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- End Intro Section -->
+
+  <main id="main">
+
+    <!-- ======= Featured Services Section Section ======= -->
+    <section id="featured-services">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 box">
+            <i class="ion-ios-location-outline"></i>
+            <h4 class="title"><a href="ip.html">Know Your IP Address</a></h4>
+            <p class="description">Our project provides your device IP Address along with the Default Mask , which Class the network belongs and the Network address of the provided IP Address.</p>
+          </div>
+
+          <div class="col-lg-4 box box-bg">
+            <i class="ion-ios-cloud-outline"></i>
+            <h4 class="title"><a href="flsm_cal.html">FLSM (Classful Subnetting)</a></h4>
+            <p class="description">Classful subnetting is a method of splitting a classful network number into two or more smaller subnets. 
+              The subnets will all be the same size, determined by the maximum number of hosts per subnet. 
+              </p>
+          </div>
+
+          <div class="col-lg-4 box">
+            <i class="ion-ios-calculator-outline"></i>
+            <h4 class="title"><a href="vlsm_cal.html">VLSM (CIDR)</a></h4>
+            <p class="description">Classless Addressing is an improved IP Addressing system. It makes the allocation of IP Addresses more 
+              efficient. It replaces the older classful addressing system based on classes. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Featured Services Section -->
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about">
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h3>About Us</h3>
+          <p>
+            We are the students in the department of B.Sc in CSE of Stamford University Bangladesh.<br>
+            This is the final project of our Bachelor course. Our project is based on computer network.
+            We are working on IP address Subnetting in this project.
+          </p>
+        </header>
+
+        <div class="row about-cols">
+
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="about-col">
+              <div class="img">
+                <img src="assets/img/about-mission.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Our Mission</a></h2>
+              <p>
+                For a typical small business, you’ll be handed a small number of public IP addresses. 
+                We'll handle this for you so that you won’t have to worry too much about routing.                
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="about-col">
+              <div class="img">
+                <img src="assets/img/about-plan.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-list-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Our Plan</a></h2>
+              <p>
+                Our plan is to provide IP Subnet Calculator that will help you to divide IP Networks into subnetworks by calculating network 
+                addresses, subnet masks and broadcast addresses.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="about-col">
+              <div class="img">
+                <img src="assets/img/about-vision.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="ion-ios-eye-outline"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Our Vision</a></h2>
+              <p>
+                Our vision for the next phase of development is ‘A Global, Open, Stable, and Easy Internet Protocol Subnetting System!’.
+                This will minimize congestion in other parts of the network.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+    <!-- End About Us Section -->
+
+    <!-- ======= Tutorial Section ======= -->
+    <section id="tutorial">
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h3>TUTORIAL</h3>
+          <p>In this section we have added some video tutorials related to our project. You can watch them and learn about IP addresses, Classful and Classless 
+            Subnetting, Fixed Length Subnet Mask and Variable Length Subnet Mask. We also provided a tutorial on Subnet Calculator so that you can understand easily how subnetting works. 
+          </p>
+        </header>
+
+        <main style="font-family: 'Courier New'; font-size: large; text-align: center;">
+          <h5>01. IP ADDRESSING AND SUBNETTING</h5> 
+          <hr/>                                  
+            <ol>
+              <li><a href="ip_addressing.html">IP ADDRESSING</a></li><br>
+              <li><a href="subnetting.html">SUBNETTING</a></li>                  
+            </ol> 
+          <hr/>
+
+          <h5>02. CLASSFUL AND CLASSLESS ADDRESSING</h5>  
+          <hr/>                                        
+            <ol>                       
+              <li><a href="classful.html">CLASSFUL ADDRESSING</a></li><br>
+              <li><a href="classless.html">CLASSLESS ADDRESSING</a></li>                     
+            </ol>  
+          <hr/>
+
+          <h5>03. CIDR AND VLSM</h5>  
+          <hr/>                             
+            <ol>          
+              <li><a href="cidr.html">CIDR (CLASSLESS INTERDOMAIN ROUTING)</a></li><br>
+              <li><a href="vlsm.html">VLSM (VARIABLE LENGTH SUBNET MASKING)</a></li>
+            </ol>    
+          <hr/>
+
+          <h5>04. SUBNET CALCULATOR</h5>       
+          <hr/>                             
+            <ol>
+              <li><a href="cal_add.html">CALCULATE ADDRESSES</a></li><br>
+              <li><a href="subnet.html">SUBNET CALCULATOR</a></li>
+            </ol> 
+          <hr/>                
+       </main>             
+
+      </div>
+    </section><!-- End Tutorial Section -->
+
+    
+    <!-- ======= Team Section ======= -->
+    <section id="team">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h3>Meet Our Team</h3>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-3 col-md-6"></div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/team-1.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Ayrin Akter Supty</h4>
+                  <span>Student ID: CSE 054 06806 </span>
+                  <span>Batch: 54</span>
+                  <span>Department of CSE</span>
+                  <span>Stamford University Bangladesh</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <div class="member" data-aos="fade-up" data-aos-delay="300">
+              <img src="assets/img/team-2.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Md Lehadujjaman</h4>
+                  <span>Student ID: CSE 054 06747</span>
+                  <span>Batch: 54</span>
+                  <span>Department of CSE</span>
+                  <span>Stamford University Bangladesh</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Team Section -->
+
+    
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h3>Contact Us</h3>
+          <p>If you have questions or just want to get in touch call us or send emails. We look forward to hearing from you.</p>
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-4">
+            <div class="contact-address">
+              <i class="ion-ios-location-outline"></i>
+              <h3>Address</h3>
+              <address>51 Siddheshwari, 1217 Dhaka <br> Dhaka, Bangladesh</address>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="ion-ios-telephone-outline"></i>
+              <h3>Phone Number</h3>
+              <p><a href="tel:+8801300813663">+8801300813663</a></p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="ion-ios-email-outline"></i>
+              <h3>Email</h3>
+              <p><a href="mailto:ayrinsupty@hotmail.com">ayrinsupty@hotmail.com</a></p>
+            </div>
+          </div>
+
+        </div>
+      
+      </div>
+    </section>
+    <!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 footer-info">
+            <h3>Subnet Calculator</h3>
+            <p>
+              The subnet calculator is a handy tool for finding the number of possible subnets for any given network address block. 
+              You can choose the combination of subnets and number of hosts per subnet that suits your network and get the host address 
+              range and broadcast address for any given subnet mask.
+            </p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="ion-ios-arrow-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#about">About us</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#tutorial">Tutorial</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#team">Meet Our Team</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="#contact">Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              51 Siddheshwari <br>
+              1217 Dhaka <br>
+              Bangladesh <br>
+              <strong>Phone:</strong> +8801300813663<br>
+              <strong>Email:</strong> ayrinsupty@hotmail.com<br>
+            </p>
+
+            <div class="social-links">
+              <a href="https://twitter.com/suptyahmed" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.facebook.com/zenxnezu" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="https://www.instagram.com/abcdefghijklmno_qr___vwx_z" class="instagram"><i class="fa fa-instagram"></i></a>
+              <a href="" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            </div> 
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>SUBNET CALCULATOR</strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by Supty</a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
